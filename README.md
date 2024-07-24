@@ -7,10 +7,14 @@ This project performs analytics on the Indian Agriculture dataset provided by th
 ### Prerequisites
 
 - Node.js
-- Yarn (or npm)
+- Yarn
 
 ### Installation
 
 
-
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd mantine-agro-analysis
+```
    
