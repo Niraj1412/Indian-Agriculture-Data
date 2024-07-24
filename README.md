@@ -41,11 +41,13 @@ Upon running the development server, the browser will display two tabs. The firs
 - Displays the average yield and average cultivation area for each crop over the years.
 
 ## Screenshots
-## Yearly Crop Production
+ ### Yearly Crop Production
+ ![Application Screenshot](images/max&Min.png)
 
-## Crop Statistics (1950-2020)
+ ### Crop Statistics (1950-2020)
+ ![Application Screenshot](images/cropStats.png)
 
-# Technologies Used
+## Technologies Used
 - **TypeScript**: For type-safe JavaScript code.
 - **Vite**: A fast frontend build tool.
 - **Mantine**: For UI components.
