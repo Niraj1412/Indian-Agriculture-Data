@@ -35,9 +35,9 @@ This project performs analytics on the Indian Agriculture dataset provided by th
 ## Usage
 Upon running the development server, the browser will display two tabs. The first tab, "Table 1," shows Max & Min Crop Production, while the second tab, "Table 2," presents Crop Statistics (1950-2020):
 
-### Yearly Crop Production
+### - Yearly Crop Production
 Displays the crop with maximum and minimum production for each year.
-### Crop Statistics (1950-2020)
+### - Crop Statistics (1950-2020)
 Displays the average yield and average cultivation area for each crop over the years.
 
 ## Screenshots
