@@ -14,7 +14,7 @@ This project performs analytics on the Indian Agriculture dataset provided by th
 
 1. **Clone the repository**:
    ```bash
-   git clone [<repository-url>](https://github.com/Niraj1412/Indian-Agriculture-Data)
+   git clone https://github.com/Niraj1412/Indian-Agriculture-Data
    cd mantine-agro-analysis
 
 
