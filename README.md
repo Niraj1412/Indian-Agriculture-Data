@@ -32,28 +32,27 @@ This project performs analytics on the Indian Agriculture dataset provided by th
 - `src/App.tsx`: Main React component rendering the tables using Mantine.
 - `data`: Folder containing the dataset in JSON format.
 
-# Usage
-Upon running the development server, the browser will display two tables:
+## Usage
+Upon running the development server, the browser will display two tabs. The first tab, "Table 1," shows Max & Min Crop Production, while the second tab, "Table 2," presents Crop Statistics (1950-2020):
 
-## Yearly Crop Production
+### Yearly Crop Production
 Displays the crop with maximum and minimum production for each year.
-
-## Crop Statistics (1950-2020)
+### Crop Statistics (1950-2020)
 Displays the average yield and average cultivation area for each crop over the years.
 
-# Screenshots
-### Yearly Crop Production
+## Screenshots
+## Yearly Crop Production
 
-### Crop Statistics (1950-2020)
+## Crop Statistics (1950-2020)
 
 # Technologies Used
 - **TypeScript**: For type-safe JavaScript code.
 - **Vite**: A fast frontend build tool.
 - **Mantine**: For UI components.
 
-# Contributing
+## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-# License
+## License
 This project is licensed under the MIT License.
 
