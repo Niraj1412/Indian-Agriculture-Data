@@ -21,18 +21,17 @@ export interface CropStats {
 }
 
 export const processData = (): { maxMinProduction: AggregatedData[]; cropStats: CropStats[] } => {
-  console.log('Raw Data Sample:', rawData.slice(0, 5)); // Log a sample of the raw data
+  console.log('Raw Data Sample:', rawData.slice(0, 5)); 
 
-  // Processed Data with correct property names
   const processedData: CropData[] = rawData.map((item: any) => ({
-    year: parseInt(item['Year'].match(/\d{4}/)[0]), // Extract year number
+    year: parseInt(item['Year'].match(/\d{4}/)[0]), 
     crop: item['Crop Name'],
     production: item['Crop Production (UOM:t(Tonnes))'] || 0,
     area: item['Area Under Cultivation (UOM:Ha(Hectares))'] || 0,
     yield: item['Yield Of Crops (UOM:Kg/Ha(KilogramperHectare))'] || 0,
   }));
 
-  console.log('Processed Data:', processedData.slice(0, 5)); // Log the processed data
+  console.log('Processed Data:', processedData.slice(0, 5)); 
 
   const yearMap = new Map<number, CropData[]>();
   processedData.forEach((item) => {
@@ -49,7 +48,7 @@ export const processData = (): { maxMinProduction: AggregatedData[]; cropStats: 
     maxMinProduction.push({ year, maxCrop: maxCrop.crop, minCrop: minCrop.crop });
   });
 
-  console.log('Max Min Production:', maxMinProduction.slice(0, 5)); // Log the max/min production data
+  console.log('Max Min Production:', maxMinProduction.slice(0, 5)); 
 
   const cropMap = new Map<string, { totalYield: number; totalArea: number; count: number }>();
   processedData.forEach((item) => {
@@ -71,7 +70,7 @@ export const processData = (): { maxMinProduction: AggregatedData[]; cropStats: 
     });
   });
 
-  console.log('Crop Stats:', cropStats.slice(0, 5)); // Log the crop stats
+  console.log('Crop Stats:', cropStats.slice(0, 5)); 
 
   return { maxMinProduction, cropStats };
 };
